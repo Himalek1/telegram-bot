@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приложение 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #0088cc;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    .app-image {
+      width: 80%;
+      max-width: 400px;
+      margin: 20px 0;
+    }
+    .back-btn {
+      background-color: #0088cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .back-btn:hover {
+      background-color: #0066aa;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Приложение 1</h1>
+  </div>
+
+  <div class="content">
+    <img src="https://via.placeholder.com/400x300" alt="App Image" class="app-image">
+    <p><strong>Описание:</strong> Это приложение помогает вам решать задачи по программированию. Очень полезное приложение для новичков и опытных программистов.</p>
+    <p><strong>Рейтинг:</strong> 5/5</p>
+    <p><strong>Отзывы:</strong></p>
+    <ul>
+      <li>Отличное приложение! — Иван</li>
+      <li>Очень удобное! — Оля</li>
+    </ul>
+    <button class="back-btn" onclick="window.history.back()">Назад</button>
+  </div>
+</body>
+</html>

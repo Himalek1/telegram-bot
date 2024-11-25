@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мини-приложение в Telegram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .header {
+      background-color: #0088cc;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .app-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .app-card {
+      background-color: white;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 200px;
+    }
+    .app-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .app-card button {
+      background-color: #0088cc;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .app-card button:hover {
+      background-color: #0066aa;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Каталог приложений</h1>
+  </div>
+  
+  <div class="app-list">
+    <div class="app-card">
+      <img src="https://via.placeholder.com/200x150" alt="App 1">
+      <h3>Приложение 1</h3>
+      <p>Описание приложения 1</p>
+      <button onclick="window.location.href='app1.html'">Подробнее</button>
+    </div>
+    <div class="app-card">
+      <img src="https://via.placeholder.com/200x150" alt="App 2">
+      <h3>Приложение 2</h3>
+      <p>Описание приложения 2</p>
+      <button onclick="window.location.href='app2.html'">Подробнее</button>
+    </div>
+    <div class="app-card">
+      <img src="https://via.placeholder.com/200x150" alt="App 3">
+      <h3>Приложение 3</h3>
+      <p>Описание приложения 3</p>
+      <button onclick="window.location.href='app3.html'">Подробнее</button>
+    </div>
+    <div class="app-card">
+      <img src="https://via.placeholder.com/200x150" alt="App 4">
+      <h3>Приложение 4</h3>
+      <p>Описание приложения 4</p>
+      <button onclick="window.location.href='app4.html'">Подробнее</button>
+    </div>
+  </div>
+</body>
+</html>
